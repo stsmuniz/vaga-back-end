@@ -1,58 +1,65 @@
-### [VAGA - Programador Back-End ]
+<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+</p>
 
-### HABILIDADES EM:
+## About Laravel
 
-- PHP - OO
-- PHP - Procedural
-- Laravel Framework
-- Experiência em integração de websites
-- Experiência em construções de API's REST
-- Integração com API's e SDKS externas
-- Git
-- Composer
-- Docker (opcional)
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
 
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-### CONHECIMENTOS DESEJÁVEIS:
+Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
 
-- Javascript Básico
-- Teste de Unidade / Integração
-- Noções de estruturação e configuração de servidores
+## Learning Laravel
 
-### DIFERENCIAIS:
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
 
-- NodeJS
+If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
 
-# O teste
-O objetivo do teste é conhecer as habilidades em:
-- Programação PHP / Laravel
-- Organização (código/arquivos)
-- Controle de versão
-- Análise/Entendimento de requisitos
-- Capricho (atenção com uris validações, modelagem, nomenclatura, ...)
+## Laravel Sponsors
 
-## Importante
-Tudo que for desenvolvido não será utilizado comercialmente e a única intenção é avaliar o conhecimento do interessado.
+We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell):
 
-### Qual é o teste ?
-Imagine que a empresa foi contratada para participar de um projeto. Este projeto consiste na elaboração de um endpoint.
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[British Software Development](https://www.britishsoftware.co)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- [UserInsights](https://userinsights.com)
+- [Fragrantica](https://www.fragrantica.com)
+- [SOFTonSOFA](https://softonsofa.com/)
+- [User10](https://user10.com)
+- [Soumettre.fr](https://soumettre.fr/)
+- [CodeBrisk](https://codebrisk.com)
+- [1Forge](https://1forge.com)
+- [TECPRESSO](https://tecpresso.co.jp/)
+- [Runtime Converter](http://runtimeconverter.com/)
+- [WebL'Agence](https://weblagence.com/)
+- [Invoice Ninja](https://www.invoiceninja.com)
+- [iMi digital](https://www.imi-digital.de/)
+- [Earthlink](https://www.earthlink.ro/)
+- [Steadfast Collective](https://steadfastcollective.com/)
 
-A equipe de criação já fez o layout, a equipe de frontend fez a montagem e agora teremos a programação backend para fechar este projeto.
+## Contributing
 
-### O que deve ser feito ?
-- [ ] Modelagem de banco de dados para clientes. Os campos do cliente são: Nome, E-mail, Telefone, user_id (Todos os campos são Obrigatórios)
-- [ ] Modelagem de banco de dados para dependentes. Os campos são: Nome, E-mail, Celular, cliente_id, user_id (Todos os campos são Obrigatórios)
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
+## Security Vulnerabilities
 
-OBS: Sua tarefa é criar os endpoints para consumir os recursos de clientes e dependentes, usar verbos: GET, POST, PUT|PATCH, DELETE, criar politica para apenas usuário que criou um cliente possa atualizar ou apagar.
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-### O que devo utilizar ?
-- Laravel
+## License
 
-### Como participar ?
-- Fazer um fork deste repositório
-- Programar para atender os requisitos
-- Fazer um merge request quando finalizar. É importante que conste no merge request as instruções para execultar a aplicação desenolvida
-
-# Boa sorte
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
