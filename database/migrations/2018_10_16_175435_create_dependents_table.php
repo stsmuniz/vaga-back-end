@@ -15,6 +15,15 @@ class CreateDependentsTable extends Migration
     {
         Schema::create('dependents', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name');
+            $table->string('email');
+            $table->string('telephone');
+            $table->unsignedInteger('client_id')
+                ->references('id')
+                ->on('clients');
+            $table->unsignedInteger('user_id')
+                ->references('id')
+                ->on('users');
             $table->timestamps();
         });
     }
